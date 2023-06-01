@@ -71,6 +71,6 @@ spec:
       replicaCount: 2
       resources:
         requests:
-          cpu: "0.5"
+          cpu: "0.6"
           memory: 750M
       traceSampling: 100
