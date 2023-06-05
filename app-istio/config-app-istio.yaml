@@ -38,6 +38,7 @@ spec:
           service.beta.kubernetes.io/openstack-internal-load-balancer: "true"
       name: istio-ingressgateway
   #hub: dockerhub.kb.cz/iao-sq013-pub/istio
+  hub: docker.io/istio
   meshConfig:
     defaultConfig:
       holdApplicationUntilProxyStarts: true
